@@ -7,7 +7,7 @@ Tinytroupe package is installed by using "git clone https://github.com/microsoft
 Turing test was first poposed by Alan Turing in 1950 as a way to measure a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. In today's world, pass the triditional turing test is no longer hard, instead, with LLMs, the new turing test focuses more on consistency, generalization, causal understanding, and self-awareness.
 
 3. Create a simulation of your own topic and show me the transcript. This implies define at least two personas of your own choice with conflict built in and observe their conversation. You can simply copy/paste the conversation in a .md file. Please comment on the transcript whether you think the Turing Test is passed.
-'''bash
+```bash
 >>> world = TinyWorld("medical lab", [zhiming, jay])
 >>> world.make_everyone_accessible()
 >>> 
@@ -103,5 +103,5 @@ Jay --> Zhiming: [CONVERSATION]
          > That sounds like an amazing project! Designing a solar panel system for a community
          > center must have been very rewarding. I'm curious, what challenges did you face during
          > that project?
-'''g
+```
 I do not think this conversation passes the Turing test because both parties in this conversation are too polite and always use proper English without any slang or incorrect grammar.
